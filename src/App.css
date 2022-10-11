@@ -1,38 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .App {
+  /* text-align: center; */
+  align-items: center;
+}
+
+.navbar{
+
   text-align: center;
+  margin:auto;
+  align-self: center;
+  border-radius: 1.5rem;
+  width: 80vw;
+  height: 4rem;
+  background-color:springgreen;
+  margin-bottom: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar > h1{
+  padding-top : 1rem;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-cont > img{
+  padding-top: 1rem;
+  height : 15rem;
+  width:35rem;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-cont {
+  /* justify-content: space-between; */
+  display: flex;
+  align-items: flex-start;
+  padding: 2rem;
+  border-width: 1px;
+  border-radius: 2rem;
+  border-color: black;
+  /* border-style:solid; */
+  margin:auto;
+  width: 70vw;
+
+  margin-bottom: 40px;
+}
+
+.card-cont> div> a, .country{
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  font-family: 'Poppins';
+  color:black;
+}
+
+.card-cont>div>h1, .card-cont> div >h4, .card-cont >div>p{
+  margin-top: 0px;
+  padding: 0 2rem;
+
+}
+
+.card-slider{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* flex:20%; */
 }
